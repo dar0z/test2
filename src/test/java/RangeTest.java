@@ -7,6 +7,6 @@ public class RangeTest {
     @Test
     public void shouldSayThat15IsInRange() {
         Range range = new Range(10, 20);
-        Assert.assertTrue(range.isInRange(15));
+        Assert.assertTrue(range.isInRange(35));
     }
 }
